@@ -1,0 +1,27 @@
+html:
+-lien externe
+-image 
+-vidéo
+-texte 
+-liste
+-tableau
+
+css:
+-couleur fond
+-couleur texte
+-taille texte
+-style texte 
+-taille bordure tableau 
+-taille image 
+-taille vidéo 
+-texte situé
+
+site :
+conseils
+astuces
+techniques
+ranks
+rocket en général
+pros 
+rlcs
+infos
