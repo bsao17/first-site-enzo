@@ -11,23 +11,24 @@
 <body>
     <section class="header">
         <div class="navbar">
-            <h1 id="title">Blog rocket league</h1>
+            <h1 id="title">Blog rocket league</h1>     <a id="button1" href="#first" class="btn btn-primary">Infos</a>
         </div>
     </section>
 
-    <section class="bodySection">   
-        <div class="chap1">
-            <br><br><br><br> <p class="underline">Infos générales :</p>    
-             <p> Rocket League est un jeu vidéo de sport développé et édité par Psyonix. Il sort en juillet 2015 sur Windows et sur PlayStation 4, en février 2016 sur Xbox One, en septembre 2016 sur Linux et Mac et en novembre 2017 sur Nintendo Switch.</p>
-        </div>
+    <section class="bodySection">
+        <div class="chap">
+            <br><br><br><br> <p class="underline" id="generale" >Infos générales :</p>    
+             <p> Rocket League est un jeu vidéo de sport développé et édité par Psyonix. Il sort en juillet 2015 sur Windows et sur PlayStation 4,
+                 en février 2016 sur Xbox One, en septembre 2016 sur Linux et Mac et en novembre 2017 sur Nintendo Switch.</p>
+        </div>   
     
     <div class="image">
         <img id="image1" src="./pictures/rocket1.jpg" alt="photo rocket league">  
     </div>
     
-    <div class="chap0" id="first">
+    <div class="chap0 card p-3" id="first">
         <div id="systeme">
-            <p class="underline">Système de classement:</p>   
+            <p class="underline card-header" >Système de classement:</p>   
             <p>Quand vous entrez dans une première playlist compétitive sur Rocket League, vous commencerez par jouer une série de matchs de placement où vous n’aurez pas encore de rang. Le nombre de matchs de placement à faire peut varier, mais s’arrêteront à 10 en tout.
     
                 Les joueurs avancés pourraient avoir besoin de jouer seulement 10 ou 20 parties en ranked, alors que des joueurs plus nouveaux pourraient avoir besoin de plus de temps pour trouver leur classement. Les joueurs qui veulent faire des parties compétitives devront gagner leurs 10 matchs de placement de façon séparée pour chaque playlist.
@@ -43,7 +44,7 @@
                 Les joueurs pourront aussi se voir demander de jouer des parties de placement supplémentaires pendant une saison s’ils prennent une longue pause du jeu. C’est un aspect nécessaire de tout système de classées, puisque les joueurs qui reviennent sur le jeu pourraient être un peu rouillés et pas prêts à jouer au même niveau qu’ils le pouvaient précédemment quand ils avaient commencé leur pause.</p>
         </div>
         <div id="MMR">
-            <p class="underline">MMR:</p>
+            <p class="underline card-header">MMR:</p>
             <p>Le MMR, ou match making rating, est une valeur cachée qui détermine le niveau des adversaires contre et avec qui vous allez jouer. Notez que votre MMR ne décrit pas forcément votre niveau de compétences, mais c’est un nombre algorithmique dérivé basé sur votre taux de victoire et de performance pour vous insérer dans la zone générale de difficulté. Quand vous jouez des parties et que vous les gagnez ou les perdez, l’algorithme du jeu ajustera votre MMR.
     
                 Dans les modes compétitifs, votre MMR sera en général reflètera directement votre rang de joueur, avec une certaine zone de MMR constituant chaque rang. La seule exception à cette règle est avec les joueurs Super Sonic Legend, qui ont un minimum à atteindre pour garder ce titre, mais il n’y a pas de limite maximale au système de MMR. Il y a donc une vaste disparité entre les Super Sonic Legend aux rangs les plus bas et les meilleurs joueurs du jeu qui sont parvenus à grimper encore plus haut dans le système MMR en remportant des parties, et ce même quand le rang atteint est maximal.
@@ -57,65 +58,115 @@
     </div>
     
     <div class="chap1">
-        <div class="bronze"> 
-            <p id="bronze0" class="underline">Bronze:</p>
-            <img class="pictures" src="./pictures/bronze.webp" alt="photo bronze">
-            <p id="bronze1">Conseils: -Ne pas se poser de questions <br> -Se faire plaisir <br> -Aller en freeplay</p>
-            <p id="bronze2">Astuces:</p>
-        </div>
-    
-        <div class="argent">
-            <p id="argent0" class="underline">Argent:</p>
-            <img class="pictures" src="./pictures/argent.jpg" alt="photo argent">
-            <p id="argent1">Conseils: -Travailler les frappes <br> -Travailler la maîtrise du véhicule</p>
-            <p id="argent2">Astuces:</p>
-        </div>
-    
-        <div class="or">
-            <p id="or0" class="underline">Or:</p>
-            <img class="pictures" src="./pictures/or.jpg" alt="photo or">
-            <p id="or1">Conseils: -Accéder au workshop <br>-Travailler les dribbles et les aériennes</p>
-            <p id="or2">Astuces:</p>
-        </div>
-    
-        <div class="platine">
-            <p id="platine0" class="underline">Platine:</p>
-            <img class="pictures" src="./pictures/platine.jpg" alt="photo platine">
-            <p id="platine1">Conseils: -Travailler sa rotation <br> -Améliorer ses mécaniques (frappes,contrôles,passes)</p>
-            <p id="platine2">Astuces:</p>
-        </div>
-    
-        <div class="diamant">
-            <p id="diamant0" class="underline">Diamant:</p>
-            <img class="pictures" src="./pictures/diamant.jpg" alt="photo diamant">
-            <p id="diamant1">Conseils: -Prendre son temps <br> -Profiter des erreurs des adversaires <br> -Jouer sur les murs</p>
-            <p id="diamant2">Astuces:</p>
-        </div>
-    
-        <div class="champion">
-            <p id="champion0" class="underline">Champion:</p>
-            <img class="pictures" src="./pictures/champion.webp" alt="photo champion">
-            <p id="champion1">Conseils: -Maîtriser les rotations <br> -Maîtriser le jeu au mur <br> -Analyser le terrain</p>
-            <p id="champion2">Astuces:</p>
-        </div>
-    
-        <div class="GC">
-            <p id="GC0" class="underline">Grand champion:</p>
-            <img class="pictures" src="./pictures/grand champion.jpg" alt="photo grand champion">
-            <p id="GC1">Conseils: -Optimiser chaque mécanique <br> -Apprendre des mécaniques avancées</p>
-            <p id="GC2">Astuces:</p>
-        </div>
-    
-        <div class="SL">
-            <p id="SL0" class="underline">Supersonic legend:</p>
-            <img class="pictures" src="./pictures/supersonic legend.jpg" alt="photo supersonic legend">
-            <p id="SL1">Conseils:</p>
-            <p id="SL2">Astuces:</p>
+        <div class="ranks">
+            <div class="bronze"> 
+                <p id="bronze0" class="underline">Bronze:</p>
+                <img class="pictures" src="./pictures/bronze.webp" alt="photo bronze">
+                <p id="bronze1"> <span class="underline1">Conseils:</span> 
+                <ul class="liste">
+                    <li>-Ne pas se poser de questions   </li> 
+                    <li>-Se faire plaisir  </li>    
+                    <li>-Aller en freeplay</li>   
+                </ul> 
+                </p>      
+                <p id="bronze2"> <span class="underline1">Astuces:</span></p>
+            </div>
+        
+            <div class="argent">
+                <p id="argent0" class="underline">Argent:</p>
+                <img class="pictures" src="./pictures/argent.jpg" alt="photo argent">
+                <p id="argent1"><span class="underline1">Conseils:</span> 
+                    <ul class="liste">
+                        <li>-Travailler les frappes </li> 
+                        <li>-Travailler la maîtrise du véhicule</li>
+                    </ul>
+                </p>
+                <p id="argent2"> <span class="underline1"> Astuces:</span></p>
+            </div>
+        
+            <div class="or">
+                <p id="or0" class="underline">Or:</p>
+                <img class="pictures" src="./pictures/or.jpg" alt="photo or">
+                <p id="or1"><span class="underline1"> Conseils:</span>
+                   <ul class="liste">
+                      <li> -Accéder au workshop </li>
+                      <li> -Travailler les dribbles et les aériennes</li>
+                    </ul>
+                </p>
+                <p id="or2"><span class="underline1"> Astuces:</span></p>
+            </div>
+        
+            <div class="platine">
+                <p id="platine0" class="underline">Platine:</p>
+                <img class="pictures" src="./pictures/platine.jpg" alt="photo platine">
+                <p id="platine1"><span class="underline1">Conseils:</span> 
+                    <ul class="liste">
+                       <li> -Travailler sa rotation </li>
+                        <li>-Améliorer ses mécaniques (frappes,contrôles,passes)</li>  
+                    </ul> 
+                </p>
+                <p id="platine2"><span class="underline1">Astuces:</span> </p>
+            </div>
+        
+            <div class="diamant">
+                <p id="diamant0" class="underline">Diamant:</p>
+                <img class="pictures" src="./pictures/diamant.jpg" alt="photo diamant">
+                <p id="diamant1"><span class="underline1">Conseils:</span>  
+                   <ul class="liste">
+                    <li>-Prendre son temps </li>
+                     <li>-Profiter des erreurs des adversaires </li> 
+                      <li>-Jouer sur les murs</li>
+                    </ul> 
+                </p>
+                <p id="diamant2"><span class="underline1">Astuces:</span> </p>
+            </div>
+        
+            <div class="champion">
+                <p id="champion0" class="underline">Champion:</p>
+                <img class="pictures" src="./pictures/champion.webp" alt="photo champion">
+                <p id="champion1"><span class="underline1">Conseils:</span> 
+                    <ul class="liste">
+                        <li>-Maîtriser les rotations </li>
+                        <li>-Maîtriser le jeu au mur </li>
+                        <li>-Analyser le terrain</li>
+                    </ul>
+                </p>
+                <p id="champion2"><span class="underline1">Astuces:</span> </p>
+            </div>
+        
+            <div class="GC">
+                <p id="GC0" class="underline">Grand champion:</p>
+                <img class="pictures" src="./pictures/grand champion.jpg" alt="photo grand champion">
+                <p id="GC1"><span class="underline1">Conseils:</span>  
+                   <ul class="liste">
+                    <li>   -Optimiser chaque mécanique </li>
+                     <li>  -Apprendre des mécaniques avancées</li>
+                     <li>  -Mieux gérer son boost</li>
+                    </ul> 
+                </p>
+                <p id="GC2"><span class="underline1">Astuces:</span> </p>
+            </div>
+        
+            <div class="SL">
+                <p id="SL0" class="underline">Supersonic legend:</p>
+                <img class="pictures" src="./pictures/supersonic legend.jpg" alt="photo supersonic legend">
+                <p id="SL1"><span class="underline1">Conseils:</span> 
+                     <ul class="liste">
+                     <li>-Avoir le moins de lacunes possibles</li>  
+                     <li>-Se remettre régulièrement en question</li> 
+                     <li>-Régulariser ses mécaniques</li> 
+                    </ul>
+                </p>
+                <p id="SL2"><span class="underline1">Astuces:</span> </p>
+            </div>
         </div>
     </div>
     
-    <a href="#first" class="btn btn-primary">Infos</a>
     </section>
+
+    <footer>
+
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 

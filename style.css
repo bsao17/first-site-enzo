@@ -14,10 +14,14 @@ body{
     position: fixed;
     right: 0px;
     left: 0%;
+    z-index: 999;
 }
 #title{
     margin-left: 1%;
     color: rgb(206, 221, 240);
+}
+#button1{
+    margin-right: 1%;
 }
 .image{
     width: 100%;
@@ -28,31 +32,55 @@ body{
     margin: auto;
     border: solid black 3px; 
     display: block;  
+    margin-bottom: 1%;
 }
 #image2{
     margin: auto;
     display: block;
     border: solid black 3px; 
+    margin-top: 1%;
+}
+.chap{
+    text-align: center;
 }
 .chap0{
-    text-align: center;
+    text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 3%;
+    background: #002EB2;
+    color: white;
 }
 .chap1{
-     text-align: center;
-     margin-left: 5%;
+     margin-left: 45%;
      margin-right: 5%;
-     margin-left: 0%;
-     margin-right: 0%;
 }
 .underline{
     text-decoration: underline;
     font-size: 1.5rem;
+    text-align: left;
+    margin-left: 5%;
+}
+.underline1{
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-left: 7%;
+}
+#generale{
+    margin-left: 44.5%;
 }
 .pictures{
     width: 50px;
+    margin-left: 7%;
+}
+.liste{
+    list-style: none;
+}
+.ranks{
+
+}
+.card-header{
+    background: #E1E0EC;
+    color: black;
 }
 
 
