@@ -5,6 +5,7 @@ html:
 -texte 
 -liste
 -tableau
+-menu de redirection
 
 css:
 -couleur fond
